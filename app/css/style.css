@@ -1244,10 +1244,6 @@ width: 300px;
 
 /* Technologies - Animation */
 
-.tech-title {
-  padding-top: 2%;
-}
-
 .icon-cards {
   position: inherit;
   margin: 10% 0 0 20%;
@@ -1258,14 +1254,14 @@ width: 300px;
   perspective: 800px;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 480px) {
-  .icon-cards {
-    margin: 28% 0 0 51%;
-  }
-}
 @media (max-width: 780px) {
   .icon-cards {
     margin: 15% 0 0 50%;
+  }
+}
+@media (max-width: 480px) {
+  .icon-cards {
+    margin: 30% 0 0 51%;
   }
 }
 .icon-cards__content {
